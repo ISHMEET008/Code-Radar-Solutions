@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-int main{
+int main(){
     char a;
     scanf("%c",&a);
     if(isupper(a)){
@@ -13,4 +13,4 @@ int main{
         printf("Not an alphabet");
     }
     return 0;
-    }
+}
