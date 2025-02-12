@@ -1,21 +1,19 @@
-
 #include<stdio.h>
-#include<ctype.h>
+#include<ctype.h>  // Include this for isalpha and isdigit
+
 int main(){
     char ch;
-    scanf("%c",&ch);
-    if(isalpha(ch)){
-        if(ch=="a" || ch=="e" || ch=="i" || ch=="o" || ch=="u" || ch=="A" || ch=="E" || ch=="I" || ch=="O" || ch=="U"){
+    scanf("%c", &ch);
+    
+    if (isalpha(ch)) {
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
             printf("Vowel");
-        }
-        else{
+        } else {
             printf("Consonant");
         }
-    }
-    else if(isdigit(ch)){
+    } else if (isdigit(ch)) {
         printf("Digit");
-    }
-    else{
+    } else {
         printf("Special Character");
     }
     return 0;
