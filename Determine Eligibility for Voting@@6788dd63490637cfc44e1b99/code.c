@@ -3,11 +3,11 @@
 int main(){
     int n;
     scanf("%d",&n);
-    if(n>18){
-        printf("Not Eligible");
+    if(n<=18){
+        printf("Eligible");
     }
     else{
-        printf("Eligible");
+        printf("Not Eligible");
     }
     return 0;
 }
