@@ -3,7 +3,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    if(n<=18){
+    if(n>=18){
         printf("Eligible");
     }
     else{
