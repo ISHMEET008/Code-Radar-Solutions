@@ -1,9 +1,9 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    char marks;
-    scanf("%c",&marks);
-    switch(marks){
+    char m;
+    scanf("%c",&m);
+    switch(m){
         case 'A'':
         printf("Excellent");
         break;
