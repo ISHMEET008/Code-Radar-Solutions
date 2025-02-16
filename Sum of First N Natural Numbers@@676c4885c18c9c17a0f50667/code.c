@@ -9,6 +9,7 @@ int main(){
     //     sum=sum+i;}
     while(i<=n){
         sum=sum+i;
+        i++;
     }
         printf(
             "%d",sum
