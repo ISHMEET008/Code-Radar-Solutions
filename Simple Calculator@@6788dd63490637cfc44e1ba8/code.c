@@ -11,7 +11,7 @@ int main(){
         case "-":
         result=a-b;
         break;
-        case"*":
+        case "*":
         result=a*b;
         break;
         case "/":
