@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     char marks;
-    scanf(" %c",&marks);
+    scanf("%c",&marks);
     switch(marks){
         case 'A'':
         printf("Excellent");
