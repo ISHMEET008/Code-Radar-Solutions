@@ -53,7 +53,7 @@ int main(){
         printf("%d",days);
         break;
         default:
-        printf("Invalid");
+        printf("Invalid month");
 
     }
     return 0;
