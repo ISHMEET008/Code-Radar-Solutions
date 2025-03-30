@@ -7,7 +7,8 @@ for(int i=0;i<n;i++){
         arr[i+1]=temp;
 
     }
-}
+}}
+void printArray(int a[0,int n]){
 for(int j=0;j<n;j++){
     printf("%d ",arr[j]);
 }
