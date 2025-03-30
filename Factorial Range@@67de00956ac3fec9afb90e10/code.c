@@ -17,7 +17,7 @@ int fact(int i){
 
     }
     else{
-        return n*fact(n-1);
+        return n*fact(i-1);
     }
 }
 // int main(){
