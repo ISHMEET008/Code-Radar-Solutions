@@ -5,25 +5,28 @@ int main(){
     int arr[n];
     for(int i=1;i<=n-1;i++){
         scanf("%d",&arr[i]);
-        // printf("%d ",arr[i]);
+        
     }
+    int result[2];
     int min=arr[0];
+    int max=arr[0];
     for(int k=1;k<=n-1;k++){
         if(arr[k]<min){
             min = arr[k];
-            
+        }
+        if(arr[k]>max){
+            max = arr[k];
         }
        
     }
-     printf("%d ",min);
-    int max=arr[0];
-    for(int j=1;j<=n-1;j++){
-        if(arr[j]>max){
-            max =arr[j];
-           
-        }
-         
+    result[0]=min;
+    result[1]=max;
+    
+    for(int i=0;i<2;i++){
+        printf("%d ",result[0]);
+        printf("%d",result[1]);
     }
-    printf("%d",max);
+    
     return 0;
-}
+    
+    }
