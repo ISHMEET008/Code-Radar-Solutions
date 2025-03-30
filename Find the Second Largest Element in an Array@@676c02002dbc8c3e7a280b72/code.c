@@ -24,6 +24,12 @@ int main(){
                 max2=arr[j];
         }
     }
-    printf("%d",max2);
+    
+    if(max2 == INT_MIN){
+        printf("-1";)
+    }
+    else{
+        printf("%d",max2);
+    }
     return 0;
 }
