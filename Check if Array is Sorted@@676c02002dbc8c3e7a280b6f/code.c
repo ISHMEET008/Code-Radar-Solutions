@@ -18,11 +18,11 @@ int main(){
     }
     for(int h=0;h<n;h++){
         printf("%d",arr[h]);
-    if(arr[i]==arr[n]){
-        printf("Sorted")
+    if(arr[h]==arr[n]){
+        printf("Sorted");
     }
     else{
-        printf("Not Sorted")
+        printf("Not Sorted");
     }
     return 0;
 }}
