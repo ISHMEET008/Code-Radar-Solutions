@@ -26,7 +26,7 @@ int main(){
     }
     
     if(max2 == INT_MIN){
-        printf("-1";)
+        printf("-1");
     }
     else{
         printf("%d",max2);
