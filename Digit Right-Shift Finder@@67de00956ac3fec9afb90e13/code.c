@@ -1,9 +1,12 @@
 int digitRightShift(int n){
     int lastdigit=n%10;
-    int remaining_no=n/10;
-    int final_no;
-    final_no == lastdigit;
-    if(remaining_no==0){printf("%d",n);}
-    printf("%d",final_no);
-    printf("%d",remaining_no);
+    int temp = n;
+    int place =1;
+    while(temp>=10){
+        temp =temp/10;
+        place = place%10;
+    }
+    return lastdigit*place +n/10;
+    
+    
 }
