@@ -1,6 +1,6 @@
 #include<stdio.h>
 int factorialRange(int start,int end){
-    int fact =1;
+    // int fact =1;
     if(start>end || start<0 || end <0){
         printf("Invalid range");
     }
