@@ -10,7 +10,7 @@ int main(){
     int min=arr[0];
     for(int i=1;i<=n-1;i++){
         if(arr[i]<min){
-            min == arr[i];
+            min = arr[i];
             
         }
         printf("%d ",min);
@@ -18,7 +18,7 @@ int main(){
     int max=arr[0];
     for(int i=1;i<=n-1;i++){
         if(arr[i]>max){
-            max == arr[i];
+            max =arr[i];
            
         }
          printf("%d",arr[i]);
