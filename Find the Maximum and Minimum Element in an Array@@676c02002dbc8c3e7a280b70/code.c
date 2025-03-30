@@ -23,9 +23,8 @@ int main(){
     result[1]=max;
     
     for(int i=0;i<2;i++){
-        printf("%d ",result[0]);
-        printf("%d",result[1]);
-    }
+        printf("%d ",result[i]);
+       
     
     return 0;
     
