@@ -1,10 +1,14 @@
 int bubbleSort(int a[],int n){
-    int arr[n];
+    // scanf("%d",&n);
+    // for(int i=0;i<n;i++){
+    //     scanf("%d",%a[i]);
+    // }
+    int a[n];
 for(int i=0;i<n;i++){
-    if(arr[i]>arr[i+1]){
-        int temp = arr[i];
-        arr[i]=arr[i+1];
-        arr[i+1]=temp;
+    if(a[i]>a[i+1]){
+        int temp = a[i];
+        a[i]=a[i+1];
+        a[i+1]=temp;
 
     }
 }}
