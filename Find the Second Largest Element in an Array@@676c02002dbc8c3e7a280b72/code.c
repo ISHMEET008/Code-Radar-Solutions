@@ -13,7 +13,7 @@ int main(){
             max1 = max2;
             max1=arr[j];
         }
-        else if(a[j]>max2 && a[j]<max1 ){
+        else if(arr[j]>max2 && arr[j]<max1 ){
                 max2=arr[j];
         }
     }
