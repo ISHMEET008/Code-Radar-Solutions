@@ -25,7 +25,6 @@ int main(){
     for(int i=0;i<2;i++){
         printf("%d ",result[i]);
        
-    
-    return 0;
+        }    return 0;
     
     }
