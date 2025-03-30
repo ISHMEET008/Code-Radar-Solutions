@@ -3,6 +3,6 @@ int digitRightShift(int n){
     int remaining_no=n/10;
     int final_no;
     final_no == lastdigit;
-    printf("final_no");
-    printf("remaining_no");
+    printf("%d",final_no);
+    printf("%d",remaining_no);
 }
