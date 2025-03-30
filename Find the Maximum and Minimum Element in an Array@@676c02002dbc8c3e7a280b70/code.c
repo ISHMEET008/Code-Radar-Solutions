@@ -8,9 +8,9 @@ int main(){
         // printf("%d ",arr[i]);
     }
     int min=arr[0];
-    for(int i=1;i<=n-1;i++){
-        if(arr[i]<min){
-            min = arr[i];
+    for(int k=1;k<=n-1;k++){
+        if(arr[k]<min){
+            min = arr[k];
             
         }
        
@@ -24,6 +24,6 @@ int main(){
         }
          
     }
-    printf("%d",arr[j]);
+    printf("%d",max);
     return 0;
 }
