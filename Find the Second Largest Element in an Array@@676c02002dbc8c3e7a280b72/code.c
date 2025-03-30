@@ -12,7 +12,7 @@ int main(){
     max1 =max2 =INT_MIN;
     for(int j=0;j<n;j++){
         if(arr[j]>max1){
-            max1 = max2;
+            max2 = max1;
             max1=arr[j];
         }
         else if(arr[j]>max2 && arr[j]<max1 ){
