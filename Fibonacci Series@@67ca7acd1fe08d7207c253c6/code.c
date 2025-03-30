@@ -4,7 +4,7 @@ int finonacciseries(int a){
         printf("1");
     }
     else{
-        int ans = finonacciseries(n-1)+finonacciseries(n-2);
+        int ans = finonacciseries(a-1)+finonacciseries(a-2);
         printf("%d",ans);
     }
 }
