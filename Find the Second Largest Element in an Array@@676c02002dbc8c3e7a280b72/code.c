@@ -13,8 +13,8 @@ int main(){
             max1 = max2;
             max1=arr[i];
         }
-        else if(a[i]>max2 && a[i]<max1 ){
-                max2=arr[i];
+        else if(a[j]>max2 && a[j]<max1 ){
+                max2=arr[j];
         }
     }
     printf("%d",max2);
