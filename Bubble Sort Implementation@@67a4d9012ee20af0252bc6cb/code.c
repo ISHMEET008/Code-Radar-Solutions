@@ -8,7 +8,7 @@ for(int i=0;i<n;i++){
 
     }
 }}
-void printArray(int a[0,int n]){
+void printArray(int a[],int n){
 for(int j=0;j<n;j++){
     printf("%d ",arr[j]);
 }
