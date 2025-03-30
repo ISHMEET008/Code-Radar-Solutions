@@ -17,13 +17,13 @@ int main(){
     }
      printf("%d ",min);
     int max=arr[0];
-    for(int i=1;i<=n-1;i++){
-        if(arr[i]>max){
-            max =arr[i];
+    for(int j=1;j<=n-1;j++){
+        if(arr[j]>max){
+            max =arr[j];
            
         }
          
     }
-    printf("%d",arr[i]);
+    printf("%d",arr[j]);
     return 0;
 }
