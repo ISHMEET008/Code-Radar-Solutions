@@ -12,11 +12,18 @@ int factorialRange(int start,int end){
         }
     }
     else{
-        for(int i=1;i<=end;i++){
-        fact = fact*i;
-        printf("%d",fact);
-        printf("\n");
+        for(int i=start;i<=end;i++){
+        printf("%d",fact(i));
         }
+    }
+}
+int fact(int i){
+    if(i==0 || i==1){
+        return 1;
+
+    }
+    else{
+        return n*fact(n-1);
     }
 }
 // int main(){
