@@ -12,13 +12,13 @@ int factorialRange(int start,int end){
         }
     }
 }
-int main(){
-    int start,end;
-    scanf("%d %d",start,end);
-    factorialRange(start,end);
+// int main(){
+//     int start,end;
+//     scanf("%d %d",start,end);
+//     factorialRange(start,end);
     
-    return 0;
-}
+//     return 0;
+// }
 
 
 
