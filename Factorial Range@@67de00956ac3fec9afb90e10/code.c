@@ -4,13 +4,7 @@ int factorialRange(int start,int end){
     if(start>end || start<0 || end <0){
         printf("Invalid range");
     }
-    else if(start==end){
-        for(int i=1;i<=end;i++){
-            fact = fact*i;
-            printf("%d",fact);
-            printf("\n");
-        }
-    }
+   
     else{
         for(int i=start;i<=end;i++){
         printf("%d",fact(i));
