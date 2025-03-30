@@ -10,6 +10,7 @@ int factorialRange(int start,int end){
             fact = fact *j;
            }
            printf("%d",fact);
+           printf("\n");
         }
     }
 }
