@@ -1,9 +1,9 @@
 int bubbleSort(int a[],int n){
-    // scanf("%d",&n);
-    // for(int i=0;i<n;i++){
-    //     scanf("%d",%a[i]);
-    // }
-    // int a[n];
+    scanf("%d",&n);
+    for(int i=0;i<n;i++){
+        scanf("%d",%a[i]);
+    }
+    int a[n];
 for(int i=0;i<n;i++){
     if(a[i]>a[i+1]){
         int temp = a[i];
