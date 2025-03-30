@@ -5,6 +5,7 @@ int fibonacciSeries(int n){
     printf("%d %d ",a,b);
     if(n==1){
         printf("0");
+        return 0;
     }
     
     for(int i=1;i<n-1;i++){
